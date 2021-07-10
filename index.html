@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+	</script>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="static/index.css">
+	<title>Bijuice</title>
+
+	<script>
+		$(document).ready(function () {
+  $(".sidenavbar").hide();
+  $("#profile").click(function () {console.log("sdsd");
+    $(".sidenavbar").slideToggle(300);
+  });
+});
+	</script>
+</head>
+
+<body>
+	<div class="navbar">
+    <div style="float: left";><img style="display:inline-block; width: 70px;" src="static/img/juice.gif" alt=""></div>
+		<center>
+      <!-- <i class="fa fa-user" style="font-size:24px"></i> -->
+			<h1 class="title">BIJUICE</h1>
+		</center>
+		<div id="profile"><i class="profile fa fa-user" style="font-size:36px;color:purple">
+    </i>
+    </div>
+    <div class="sidenavbar">
+        <div>
+          <img class="profile1" src="static/img/profile.png" alt="">
+        </div>
+        <div>
+          <a href="{{ url_for('login') }}" ><button>Login</button></a>
+        </div>
+        <div>
+          <a href="signup.html"><button>Sign Up</button></a>
+        </div>
+    </div>
+    <h3 class="main_motto">"The Freshest Drink You Will Ever Drink!" - Gordon Ramsay</h3>
+    <!-- <img class="main_img" src="Drinking2.jpg"> -->
+    <div class="prod_table">
+      <div class="card">
+       <img class="products" src="static/img/Kiwi.jpg" alt="">
+        <h2>Kiwi Juice</h2>
+        <h3>$199</h3>
+      </div>
+      <div class="card">
+        <img class="products" src="static/img/Mango.jpg" alt="">
+        <h2>Mango Juice</h2>
+        <h3>$299</h3>
+        </div>
+      <div class="card">
+        <img class="products" src="static/img/Watermelon.jpg" alt="">
+        <h2>Watermelon Juice</h2>
+        <h3>$399</h3>
+        </div>
+    </div>
+
+</body>
+
+</html>

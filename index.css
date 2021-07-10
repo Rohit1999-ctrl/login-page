@@ -1,0 +1,147 @@
+body{
+  font-family: font-family: sans-serif;;
+  background-color: rgb(202, 199, 199);
+  text-align: center;
+  height: 100%;
+  background-image: url("static/img/womandrinkingjuice.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* td{
+  margin-left: 100px;
+  border: none;
+  border-radius: 25px;
+  background: rgb(202, 199, 199);
+}
+
+td:hover{
+  background-color: white;
+} */
+
+.prod_table{
+  /* background-color: rgb(202, 199, 199);  */
+  overflow: hidden;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  gap: 100px;
+  width:max-content;
+  justify-content: space-between;
+  top: 500px;
+  /* box-sizing: border-box; */
+  border-radius: 25px;
+}
+.card{
+  border: none;
+  border-radius: 25px;
+  background: rgb(202, 199, 199);
+}
+.card:hover{
+  transition-delay: 5s;
+  background-color: purple;
+  color: white;
+}
+.products{
+  width: 300px;
+  height: 250px;
+  /* display: flex; */
+  /* justify-content: space-around; */
+  border-radius: 25px;
+  font-family: sans-serif;
+}
+
+.main_title{
+  font-family: Brush Script MT;
+  font-family: 'Caveat', cursive;
+  color: blueviolet;
+  font-size: 10rem;
+  position: absolute;
+  top: 10px;
+  left: 30px;
+}
+
+.main_motto{
+  text-align: left;
+  font-family: 'Caveat', cursive;
+  color: purple ;
+  text-shadow: 0 0 3px whitesmoke, 0 0 5px whitesmoke;
+  font-size: 4rem;
+  width: 50%;
+  position: absolute;
+  z-index: -1;
+  top: 80px;
+  left: 30px;
+
+}
+
+.text{
+  color: black;
+  font-size: 8px;
+}
+.title{
+  text-align: left;
+  font-family: 'Caveat', cursive;
+  font-size: 2rem;
+  padding-left: 50px;
+  color: purple;
+}
+a{
+  text-decoration: none;
+}
+.navbar{
+    background-color: white;
+    border: 2px solid rgb(202, 204, 202);
+    border-radius: 10px;
+    height: 70px;
+}
+.profile{
+    min-height: 40px;
+    max-height: max-content;
+    width: 40px;
+    top: 24px;
+    border-radius: 40px;
+    position: absolute;
+    right: 50px;
+}
+.profile1{
+  height: 180px;
+  width: 180px;
+  border-radius: 20px;
+}
+
+button{
+  border: none;
+  margin: 5px 5px;
+  background-image: linear-gradient(to right, rgb(236, 182, 2) , rgb(255, 213, 36));
+  border-radius: 15px;
+  width: 85%;
+  height: 50px;
+}
+
+button:hover{
+  background: rgb(242, 245, 71);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.sidenavbar{
+  position: absolute;
+  padding-top: 10px;
+  right: 10px;
+  border: 2px solid purple;
+  border-radius: 20px;
+  height: max-content;
+  width: 200px;
+  background-color: white;
+  z-index: 3;
+}
+
+
+.main_img{
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  left: 0px;
+}
+
